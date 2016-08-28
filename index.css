@@ -1,0 +1,179 @@
+body,ul,li,h1,h2,h3,h4,h5,h6,form,input,ol,p{
+	margin:0;
+	padding:0;
+	list-style:none;	
+}
+img{
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+ body{
+ background: #624B43;
+}
+
+
+
+   .kaichang{
+   	 
+   	position: absolute;
+   	top:0;
+   	left:0;
+   	bottom: 0;
+   	right:0;
+   	margin: auto;
+   	z-index:1000;
+   	background:green;
+   }
+
+   .kaichang .kaishiyouxi{
+  
+	background-image:url(anniu.jpg);
+	width:80px;
+	height: 76px;
+	border-radius:60px;
+	position: absolute;
+	left:50%;
+	top: 50%;
+	cursor:pointer;
+}
+
+
+
+       .kaichang h1{
+       	 
+    	font-family:'微软雅黑';
+    	line-height:500px;
+    	font-size:120px; 
+    	text-align:center;
+    	color:#000;
+    	z-index: 100;
+    	position:absolute;
+    	left:0;
+    	top:0;
+    	bottom: 0;
+    	right: 0;
+    	margin: 0 auto;
+
+    }
+
+
+    .kaichang h2{
+    	font-family:'微软雅黑';
+    	line-height:500px;
+    	font-size:80px; 
+    	text-align:center;
+    	color:lime;
+    	z-index: 100;
+    	position:absolute;
+    	left:0;
+    	top:0;
+    	bottom: 0;
+    	right: 0;
+    	margin: 0 auto;
+    	transform:translateY(-100%);
+    	transition:all 0.5s ease;
+    }
+
+
+ .kaichang .zuo{
+ 	width: 50%;
+ 	height: 100%;
+ 	position: absolute;
+ 	left:0;
+ 	top:0;
+ 	background:navy;
+ 	transition:all 1s ease;
+    transform:translateX(-100%);
+    
+ }
+
+ .kaichang .you{
+ 	 	width: 50%;
+ 	height: 100%;
+ 	position: absolute;
+ 	right:0;
+ 	top:0;
+ 	background:yellow;
+ 	transition:all 1s ease;
+ 	transform:translateX(100%);
+ }
+
+ .kaichang.animation h1{
+ 	transform:translateY(0);
+ }
+
+  .kaichang.animation .zuo{
+ 	transform:translateX(0);
+ }
+
+  .kaichang.animation .you{
+ 	transform:translateX(0);
+ }
+
+
+
+ 
+
+  
+.changjing{
+	width:600px;
+	height:600px;
+	border-radius:30px;
+	border:10px solid #e76c09;
+	margin: auto;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}  
+
+.changjing .block{
+	width:30px;
+	height:30px;
+	float:left;
+}
+
+.she{
+	width:20px;
+	height:20px;
+	background-image:url(she.jpg);
+	background-size: cover;
+}
+.shiwu{
+	width: 20px;
+	height:20px;
+	background-image:url(shiwu.jpg);
+	background-size:cover;
+}
+
+.play{
+    width:432px;
+    height:135px;
+    border-radius: 30px;
+    background-image:url(kaishi.jpg);
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    cursor:pointer;
+    z-index:999;
+}
+
+.jieshu{
+    width:432px;
+    height:135px;
+    border-radius:30px;
+	background-image:url(jieshu.jpg);
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	margin: auto;
+
+}
